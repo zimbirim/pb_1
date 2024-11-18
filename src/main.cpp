@@ -12,7 +12,16 @@
 //==============================================================================
 /// Программа для робота Карела
 ///
-void KarelProgram() {
+void KarelProgram() { void KarelProgram();
+    Move();
+    Move();
+    TurnLeft();
+    TurnLeft();
+    TurnLeft();
+    Move();
+    TurnLeft();
+    Move();
+    PickBeeper();
 /// @todo Добавить программу для Карела
 
 }
