@@ -49,7 +49,7 @@ void PickBeeper();
  * Returns true if Karel is standing on a cell with at least one beeper, or
  * false otherwise.
  */
-// bool BeepersPresent();
+bool BeepersPresent();
 
 /**
  * Returns true if Karel is standing on a cell no beepers at all, or
@@ -61,7 +61,7 @@ void PickBeeper();
  * Returns true if there is no wall nor edge in front of Karel and they could
  * move forward, or false otherwise.
  */
-// bool FrontIsClear();
+bool FrontIsClear();
 
 /**
  * Returns true if there is a wall or edge in front of Karel or false otherwise.
