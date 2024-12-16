@@ -22,7 +22,7 @@ void KarelProgram() {
 /// Стартовая функция
 ///
 int main() {
-    LoadWorld("worlds/collect_newspaper.w");
+    LoadWorld("worlds/.w");
     KarelProgram();
     Finish();
     return 0;
