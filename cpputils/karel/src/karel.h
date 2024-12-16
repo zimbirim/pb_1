@@ -26,7 +26,7 @@ void TurnLeft();
  * Places a beeper from Karel's beeper bag onto the current cell where Karel
  * is. Results in an error if Karel has no beepers left in their bag.
  */
-// void PutBeeper();
+void PutBeeper();
 
 /**
  * Picks a beeper from the cell where Karel is standing and places it in
